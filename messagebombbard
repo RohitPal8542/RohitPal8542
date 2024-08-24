@@ -1,0 +1,11 @@
+
+import pyautogui
+import pywhatkit as pyw
+pyw.sendwhatmsg('+915','''y''',00,4)
+import time
+time.sleep(3)
+count =0
+while count<=10:
+    pyautogui.typewrite('''happyy''')
+    pyautogui.press("enter")
+    count=count+1
